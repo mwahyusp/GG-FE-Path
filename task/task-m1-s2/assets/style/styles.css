@@ -1,13 +1,16 @@
 body {
-    margin:50px; 
-    padding:0px;
-    text-align:center;
-    align-items:center;
+    margin: 50px;
+    padding: 0px;
+    text-align: center;
+    align-items: center;
 }
-label{
+
+#label-input,
+#label-description {
     font-size: 16px;
 }
-#title {
+
+#input-title {
     margin: 10px 0px;
     font-size: 16px;
     padding: 6px;
@@ -15,7 +18,8 @@ label{
     clear: none;
     border-radius: 2px;
 }
-#description {
+
+#input-description {
     margin: 10px 0px;
     font-size: 16px;
     padding: 6px;
@@ -23,6 +27,7 @@ label{
     height: 100px;
     border-radius: 2px;
 }
+
 #button_submit {
     padding: 8px;
     background-color: teal;
@@ -31,15 +36,18 @@ label{
     width: 21%;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
+
 button {
-font-size: 16px;
+    font-size: 16px;
 }
+
 .card-outside {
     border: 1px dashed black;
     border-radius: 10px;
     margin: 2% 0%;
     padding: 20px;
 }
+
 .card-inside {
     border: 1px solid teal;
     border-radius: 10px;
@@ -49,14 +57,17 @@ font-size: 16px;
     display: inline-block;
     box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
 }
-.card-inside-image{
+
+.card-inside-image {
     border-radius: 10px;
     width: 100%;
 }
+
 h3 {
     text-decoration: underline;
     font-weight: bolder;
 }
+
 #button {
     background-color: teal;
     color: white;
